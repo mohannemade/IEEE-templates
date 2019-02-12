@@ -1,0 +1,38 @@
+.sector-heading {
+  color: red;
+  font-size: 30px;
+  padding-left: 12px;
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 993px) {
+  .sector-heading {
+    padding-left: 0px;
+  }
+}
+
+.sector-height {
+  height: 150px;
+}
+
+.sector-text {
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+}
+
+.sector-text:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.sector_know_more {
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+}
+
+.sector_know_more:hover {
+  color: red;
+  text-decoration: underline;
+}

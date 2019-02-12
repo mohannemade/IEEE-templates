@@ -1,0 +1,100 @@
+@media screen and (min-width: 993px) {
+  .three-img {
+    max-height: 500px;
+  }
+  .two-img {
+    height: 100px;
+  }
+  .one {
+    padding-left: 100px;
+  }
+  .hover12.figure {
+    position: relative;
+    max-height: 500px;
+    max-width: 100%;
+    background: #660066;
+  }
+
+  .hover12.figure img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+
+  .hover12.figure:hover img {
+    opacity: .6;
+  }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+  .three-img {
+    height: 500px;
+  }
+  .two-img {
+    height: 150px;
+  }
+  .one {
+    padding-left: 130px;
+  }
+  .hover12.figure {
+    position: relative;
+    max-height: 500px;
+    max-width: 100%;
+    background: #660066;
+  }
+
+  .hover12.figure img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+
+  .hover12.figure:hover img {
+    opacity: .6;
+  }
+
+
+
+}
+@media screen and (max-width: 400px) {
+body{
+  background-color:white;
+}
+  .one {
+    padding-left: 30px;
+  }
+  .three-img {
+    height: 400px;
+  }
+
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: 50px;
+    left:10px;
+    font-size: 20px;
+    color: white;
+  }
+  .two{
+    padding:0px;
+  }
+  .hover12.figure {
+    position: relative;
+    max-height: 300px;
+    max-width: 100%;
+    background: ;
+  }
+
+  .hover12.figure img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+
+  .hover12.figure:hover img {
+    opacity: .6;
+  }
+
+}

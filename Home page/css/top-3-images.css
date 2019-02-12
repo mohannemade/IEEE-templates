@@ -1,0 +1,30 @@
+.hover12 {
+  position: relative;
+  height: 300px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8%;
+  left: 5%;
+  font-size: 20px;
+  color: white;
+}
+
+@media only screen and (min-width: 993px) {
+  .hover12{
+    height: 400px;
+  }
+  .bottom-left {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hover1 {
+    height: 550px;
+  }
+  .bottom-left {
+    font-size: 24px;
+  }
+}
